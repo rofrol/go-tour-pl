@@ -1,90 +1,90 @@
-Welcome!
-Learn how to use this tour: including how to navigate the different lessons and how to run code.
+Witaj!
+Naucz się jak używać wycieczki: włączajć jak nawigować pomiędzy różnymi lekcjami i jak uruchamiać kod.
 
-The Go Authors
+Autorzy Go
 http://golang.org
 
-* Hello, 世界
+* Cześć, 世界
 
-Welcome to a tour of the [[http://golang.org/][Go programming language]].
+Witaj w wycieczce po [[http://golang.org/][języku programowania Go]].
 
-The tour is divided into a list of modules that you can
-access by clicking on
-[[javascript:highlight(".logo")][A Tour of Go]] on the top left of the page.
+Ta wycieczka jest podzielona na listę modułów, do których masz dostęp
+po kliknięciu na
+[[javascript:highlight(".logo")][Wycieczka po Go]] na górze po lewo.
 
-You can also view the table of contents at any time by clicking on the [[javascript:highlightAndClick(".nav")][menu]] on the top right of the page.
+Możesz również zobaczyć spis treści w każdym momencie klikając na [[javascript:highlightAndClick(".nav")][menu]] na górze po prawo.
 
-Throughout the tour you will find a series of slides and exercises for you
-to complete.
+W ciągu wycieczki naptokasz serię slajdów i ćwiczeń do wykonania dla Ciebie.
 
-You can navigate through them using
+Możesz nawigować pomiędzy nimi używając
 
-- [[javascript:highlight(".prev-page")]["previous"]] or `PageUp` to go to the previous page,
+- [[javascript:highlight(".prev-page")]["poprzedni"]] lub `PageUp`, aby przejść do poprzedniej strony,
 
-- [[javascript:highlight(".next-page")]["next"]] or `PageDown` to go to the next page.
+- [[javascript:highlight(".next-page")]["następny"]] lub `PageDown`, aby przejść do następnej strony.
 
-The tour is interactive. Click the
-[[javascript:highlightAndClick("#run")][Run]] button now 
-(or type `shift-enter`) to compile and run the program on
-#appengine: a remote server.
-your computer.
-The result is displayed below the code.
+Wycieczka jest interaktywna. Kliknij teraz na przycisku
+[[javascript:highlightAndClick("#run")][Uruchom]]
+(lub wciśnij `shift-enter`), aby skompilować i uruchomić program na
+#appengine: zdalnym serwerze.
+twoim komputerze.
+Rezultat jest wyświetlany pod kodem.
 
-These example programs demonstrate different aspects of Go. The programs in the tour are meant to be starting points for your own experimentation.
+Te przykładowe programy demonstrują różne aspekty Go. Programy w wycieczce są w zamierzeniu punktami startu dla twoich własnych eksperymentów.
 
-Edit the program and run it again.
+Edytuj program i uruchom go ponownie.
 
-Note that when you click on [[javascript:highlightAndClick("#format")][Format]] or `ctrl-enter`
-the text in the editor is formatted using the
-[[http://golang.org/cmd/gofmt/][gofmt]] tool. You can switch on and off syntax highlighting
-the clicking on [[javascript:highlightAndClick(".syntax-checkbox")][syntax]] button.
+Zauważ, że kiedy klikasz na
+[[javascript:highlightAndClick("#format")][Formatuj]] lub `ctrl-enter`,
+tekst w edytorze jest formatowany przy użyciu narzędzia
+[[http://golang.org/cmd/gofmt/][gofmt]]. Możesz włączać i wyłączać podświetlanie składni
+klikając na przycisku [[javascript:highlightAndClick(".syntax-checkbox")][syntax]].
 
-When you're ready to move on, click the [[javascript:highlightAndClick(".next-page")][right arrow]] below or type the `PageDown` key.
+Kiedy jesteś gotowy aby przejść dalej, kliknij [[javascript:highlightAndClick(".next-page")][strzałkę w prawo]] poniżej lub wciśnij przycisk `PageDown`.
 
 .play welcome/hello.go
 
-* Go local
+* Tłumaczenia Go
 
-The tour is available in other languages:
+Wycieczka jest dostępna w innych językach:
 
-- [[http://go-tour-br.appspot.com/][Brazilian Portuguese — Português do Brasil]]
-- [[http://go-tour-ca.appspot.com/][Catalan — Català]]
-- [[http://go-tour-de.appspot.com/][German — Deutsch]]
-- [[http://go-tour-es.appspot.com/][Spanish — Español]]
-- [[http://go-tour-fr.appspot.com/][French — Français]]
-- [[http://go-tour-ita.appspot.com/][Italian — Italiano]]
-- [[http://go-tour-he.appspot.com/][Hebrew — עִבְרִית]]
-- [[http://go-tour-jp.appspot.com/][Japanese — 日本語]]
-- [[http://go-tour-kr.appspot.com/][Korean — 한국어]]
-- [[http://go-tour-ro.appspot.com/][Romanian — Română]]
-- [[http://tour.go-zh.org/][Simplified Chinese — 中文（简体）]]
-- [[http://go-tour-zh-tw.appspot.com/][Traditional Chinese — 中文（繁體）]]
+- [[http://go-tour-br.appspot.com/][brazylijski portugalski — Português do Brasil]]
+- [[http://go-tour-ca.appspot.com/][kataloński — Català]]
+- [[http://go-tour-de.appspot.com/][niemiecki — Deutsch]]
+- [[http://go-tour-es.appspot.com/][hiszpański — Español]]
+- [[http://go-tour-fr.appspot.com/][francuski — Français]]
+- [[http://go-tour-ita.appspot.com/][włoski — Italiano]]
+- [[http://go-tour-he.appspot.com/][hebrajski — עִבְרִית]]
+- [[http://go-tour-jp.appspot.com/][japoński — 日本語]]
+- [[http://go-tour-kr.appspot.com/][koreański — 한국어]]
+- [[http://go-tour-ro.appspot.com/][rumuński — Română]]
+- [[http://tour.go-zh.org/][uproszczony chiński — 中文（简体）]]
+- [[http://go-tour-zh-tw.appspot.com/][tradycyjny chiński — 中文（繁體）]]
 
-Click the [[javascript:highlightAndClick(".next-page")]["next"]] button or type `PageDown` to continue.
+Kliknij na przycisk [[javascript:highlightAndClick(".next-page")]["następny"]] lub naciśnij `PageDown` aby kontynuować.
 
-#appengine: * The Go Playground
+#appengine: * Plac zabaw Go
 #appengine: 
-#appengine: This tour is built atop the [[http://play.golang.org/][Go Playground]], a
-#appengine: web service that runs on [[http://golang.org/][golang.org]]'s servers.
+#appengine: Ta wycieczka jest zbudowana na bazie [[http://play.golang.org/][Placu zabaw Go]],
+#appengine: usługa web, która chodzi na serwerach [[http://golang.org/][golang.org]].
 #appengine: 
-#appengine: The service receives a Go program, compiles, links, and runs the program inside
-#appengine: a sandbox, then returns the output.
+#appengine: Usługa otrzymuje program Go, kompiluje, linkuje i uruchamia program wewnątrz
+#appengine: piaskownicy, następnie zwraca rezultat.
 #appengine: 
-#appengine: There are limitations to the programs that can be run in the playground: 
+#appengine: Istnieją ograniczenia dla programów uruchamianych na placu zabaw.: 
 #appengine: 
-#appengine: - In the playground the time begins at 2009-11-10 23:00:00 UTC (determining the sigificance of this date is an exercise for the reader). This makes it easier to cache programs by giving them deterministic output.
+#appengine: - Na placu zabaw czas ropoczyna się o 2009-11-10 23:00:00 UTC (ustalenie ważności tej daty jest zadaniem dla czytelnika). To ułatwia cache'owanie programów przez dawanie im determinstycznego outputu.
 #appengine: 
-#appengine: - There are also limits on execution time and on CPU and memory usage, and the program cannot access external network hosts. 
+#appengine: - Istnieją także ograniczenia na czasie wykonania i użycia CPU oraz pamięci, a program nie może uzyskać dostępu do hostów w zewnętrznej sieci. 
 #appengine: 
-#appengine: The playground uses the latest stable release of Go.
+#appengine: Plac zabaw używa najnowszej stablinej wersji Go.
 #appengine: 
-#appengine: Read "[[http://blog.golang.org/playground][Inside the Go Playground]]" to learn more.
+#appengine: Przeczytaj "[[http://blog.golang.org/playground][Wewnątrz placu zabaw]]", aby dowiedzieć się więcej.
 #appengine: 
 #appengine: .play welcome/sandbox.go
 
-* Congratulations
+* Gratulacje
 
-You've finished the first module of the tour!
+Skończyłeś pierwszy moduł wycieczki!
 
-Now click on [[javascript:highlightAndClick(".logo")][A Tour of Go]] to find out what else
-you can learn about Go, or go directly to the [[javascript:click('.next-page')][next lesson]].
+Teraz kliknij na [[javascript:highlightAndClick(".logo")][Wycieczka po Go]], aby dowiedzieć się co jeszcze
+możesz się nauczyć o Go, lub udaj się bezpośrednio na [[javascript:click('.next-page')][następną stronę]].
